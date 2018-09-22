@@ -8,6 +8,6 @@
 * load 
 `docker load -i dubu.tar`
 * run
-`docker run --privileged --network host -m /:/target/ dubu -t dubu`
+`docker run -it --rm --privileged --network host -v /:/target/ dubu:latest bash`
 
 
