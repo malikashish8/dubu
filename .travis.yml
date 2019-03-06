@@ -1,0 +1,8 @@
+services:
+  - docker
+
+script:
+  - docker build . -t dubu
+  - docker run --rm dubu nmap -v # Smoke Test
+  - docker tag dubu malikashish8/dubu
+#  - docker push malikashish8/dubu
