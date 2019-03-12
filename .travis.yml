@@ -3,6 +3,6 @@ services:
 
 script:
   - docker build . -t dubu
-  - docker run --rm dubu nmap -v # Smoke Test
+  - docker run --rm dubu docker -v # Smoke Test
   - docker tag dubu malikashish8/dubu
 #  - docker push malikashish8/dubu
