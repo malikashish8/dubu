@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/malikashish8/dubu.svg?branch=master)](https://travis-ci.com/malikashish8/dubu)
+
 # DUbu 
 > Docker image with tools for pentesting based on Ubuntu
 > This is not a light weight image and might not be suitable for transfer over slow networks.

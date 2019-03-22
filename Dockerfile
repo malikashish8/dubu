@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-COPY id_rsa.pub /root/id_rsa.pub
+# COPY id_rsa.pub /root/id_rsa.pub
 
 RUN echo "building..."
 
