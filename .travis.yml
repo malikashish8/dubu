@@ -4,8 +4,6 @@ services:
 install:
   - docker build . -t dubu
   - docker run --rm dubu nmap -v # Smoke Test
-
-after_success:
   - docker tag dubu malikashish8/dubu
   - docker login --username=$DOCKER_USER --password=$DOCKER_PASS
   - docker push malikashish8/dubu
