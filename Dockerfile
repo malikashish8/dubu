@@ -8,7 +8,6 @@ RUN apt update && apt install \
 	python \
 	vim \
 	net-tools \
-	docker \
 	nmap \
 	-y
 
