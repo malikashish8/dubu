@@ -8,5 +8,5 @@ install:
 - docker build . -t dubu
 - docker run --rm dubu nmap -v
 - docker tag dubu malikashish8/dubu
-- docker login --username=$DOCKER_USER --password=$DOCKER_PASS
+- docker login --username=$djapQNGTCMEtsHqo71GVtcEEE --password=$d2g6Hwbty1HA3OK1UuGm1jkYaszACKxoMvs
 - docker push malikashish8/dubu
